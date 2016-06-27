@@ -1,0 +1,15 @@
+[package]
+name = "fixbomb"
+version = "0.1.0"
+authors = ["KokaKiwi <kokakiwi@kokakiwi.net>"]
+description = "A FIXME bomb rustc plugin"
+license = "MIT"
+repository = "https://github.com/KokaKiwi/rust-fixbomb"
+homepage = "https://github.com/KokaKiwi/rust-fixbomb"
+
+[lib]
+name = "fixbomb"
+plugin = true
+
+[dependencies]
+chrono = "0.2.22"
